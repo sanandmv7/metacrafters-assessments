@@ -1,4 +1,4 @@
-# SimpleBank
+# SimpleVoting
 
 A simple voting contract and frontend to demonstrate the learnings of Metacrafters Solidity Intermediate course.
 

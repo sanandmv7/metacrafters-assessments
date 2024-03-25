@@ -16,4 +16,9 @@ contract LearnersToken is ERC20, Ownable {
     function burn(uint256 value) public {
         _burn(_msgSender(), value);
     }
+
+    // Function to transfer tokens
+    function transfer(address to, uint256 value) public override returns(bool) {
+        return super.transfer(to, value);
+    }
 }
